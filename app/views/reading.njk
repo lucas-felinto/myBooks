@@ -1,0 +1,38 @@
+{% extends "layout.njk" %}
+
+{% block content %}    
+
+    <div class="container-books">
+        <div class="title-toread">
+            <h1>Reading</h1>
+        </div>
+
+        <div class="books">
+        
+
+            {% for book in books %}
+        
+                {% if book.status == "reading" %}
+
+                    <div class="book">
+                        <div class="book-image">
+                            <span><img src="{{book.image}}" alt=""></span>
+                        </div>
+                        <div class="details">
+                            <div class="book-name">
+                            {{book.name}}
+                            </div>
+                            <div class="book-author">
+                            {{book.author}}
+                        </div></div>
+                    </div>
+                
+                {% endif %}
+
+             {% endfor %}
+
+        </div>
+
+    </div>
+
+{% endblock %}

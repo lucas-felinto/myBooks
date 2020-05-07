@@ -7,22 +7,28 @@
       "status": "read"
     },
     {
-      "image": "https://images-na.ssl-images-amazon.com/images/I/41CD63EWd4L._SX346_BO1,204,203,200_.jpg",
-      "name": "Luiza Machado",
-      "author": "Lucas Felinto Pinto",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41oLkJmtY9L._SX346_BO1,204,203,200_.jpg",
+      "name": "Rápido e Devagar",
+      "author": "Daniel Kahneman",
       "status": "reading"
     },
     {
-      "image": "https://images-na.ssl-images-amazon.com/images/I/41CD63EWd4L._SX346_BO1,204,203,200_.jpg",
-      "name": "Luiza Machado",
-      "author": "Lucas Felinto Pinto",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41q87h8PXtL._SX346_BO1,204,203,200_.jpg",
+      "name": "Mindset",
+      "author": "Carol S. Dweck",
       "status": "reading"
     },
     {
-      "image": "https://images-na.ssl-images-amazon.com/images/I/41CD63EWd4L._SX346_BO1,204,203,200_.jpg",
-      "name": "Luiza Machado",
-      "author": "Lucas Felinto Pinto",
-      "status": "reading"
+      "image": "https://m.media-amazon.com/images/I/51vJiEaw12L.jpg",
+      "name": "O Poder do Hábito",
+      "author": "Charles Duhigg",
+      "status": "to_read"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/515rjH7yikL._SY346_.jpg",
+      "name": "O Milagre da Manhã",
+      "author": "Hal Erold",
+      "status": "read"
     }
   ]
 }

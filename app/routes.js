@@ -7,9 +7,10 @@ routes.get("/", function(req, res){
 })
 
 routes.get("/home", books.home)
-
 routes.get("/new_book", books.new_book)
-
 routes.post("/new_book", books.post)
+routes.get("/to_read", books.to_read)
+routes.get("/reading", books.reading)
+routes.get("/read", books.read)
 
 module.exports = routes

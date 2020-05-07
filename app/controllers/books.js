@@ -6,7 +6,7 @@ exports.home = function(req, res) {
 }
 
 exports.new_book = function(req, res) {
-        return res.render("new_book")
+    return res.render("new_book")
 }
 
 exports.post = function(req, res){
@@ -26,4 +26,16 @@ exports.post = function(req, res){
         return res.redirect("/home")
     })
 
+}
+
+exports.to_read = function(req, res){
+    return res.render("to_read", { books: data.books })
+}
+
+exports.reading = function(req, res){
+    return res.render("reading", { books: data.books })
+}
+
+exports.read = function(req, res){
+    return res.render("read", { books: data.books })
 }

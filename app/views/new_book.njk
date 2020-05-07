@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <title>myBooks</title>
-</head>
-<body>
+{% extends "layout.njk" %}
+
+{% block content %}    
+
+<body style="background: url('https://www.freevector.com/uploads/vector/preview/30227/BookClipartSet_02.jpg'); background-size: 200px">
     <div class="container" style="background-color: white">
         <section class="box">
             <div class="title">
@@ -41,5 +37,5 @@
         </section>
         <section class="side-image" style="background: url('https://images.unsplash.com/photo-1482953049121-a32d321c2000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60') no-repeat center / cover"></section>
     </div>
-</body>
-</html>
+
+{% endblock %}
