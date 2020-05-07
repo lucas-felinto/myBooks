@@ -8,6 +8,9 @@
     "nodemon": "nodemon app/server.js",
     "browsersync": "browser-sync start --proxy http://localhost:5000 --files 'public, app/views'"
   },
+  "nodemonConfig": {
+    "ignore": ["data.json"]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
