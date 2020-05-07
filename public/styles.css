@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800);
 
 * {
     margin: 0;
@@ -21,8 +23,8 @@ body {
 }
 
 div.container {
-    width: 840px;
-    height: 500px;
+    min-width: 840px;
+    min-height: 500px;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -32,7 +34,7 @@ div.container {
 
     border-radius: 10px;
 
-    background-color: aliceblue;
+    background-color: white;
 
     box-shadow: 2px 3px 6px -2px rgba(0, 0, 0, 0.6);
 }
@@ -46,7 +48,7 @@ div.container .box {
 .box h1 {
     font-family: 'Abril Fatface', cursive;
     font-size: 45px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -69,6 +71,10 @@ div.container .box {
     margin-bottom: 20px;
 }
 
+.box .item:nth-child(1) {
+    margin-top: 20px;
+}
+
 .box .item:hover {
     opacity: 0.9;
 }
@@ -79,6 +85,11 @@ a {
 
 .box .button {
     margin-top: 60px;
+    text-align: center;
+}
+
+.button-new {
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -96,3 +107,82 @@ button {
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+/* NEW BOOK */
+
+div.new_book p {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+input {
+    border-radius: 3px;
+	border: 1px solid #01A39D;
+	outline: none;
+	color: #000000;
+	padding: 5px 8px 5px 8px;
+	box-shadow: 1px 1px 2px #000000;
+    background: #ffffff;
+    margin-bottom: 25px;
+}
+
+input[type="text"] {
+    width: 325px;
+    font-size: 18px;
+}
+
+.selectdiv {
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  select::-ms-expand {
+  display: none;
+  }
+  
+  .selectdiv:after {
+    content: '<>';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 11px;
+    /*Adjust for position however you want*/
+    
+    top: 18px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #01A39D;
+    /*left line */
+    
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 110px;
+    height: 35px;
+    /* margin: 5px 0px; */
+    padding: 0px 24px; 
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #01A39D;
+    -ms-word-break: normal;
+    word-break: normal;
+    margin-left: 115px;
+  }

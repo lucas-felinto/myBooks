@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>myBooks</title>
+</head>
+<body>
+    <div class="container" style="background-color: white">
+        <section class="box">
+            <div class="title">
+                <h1>New Book</h1>
+            </div>
+            <div class="new_book">
+                <form action="/new_book" method="post">
+                    <div class="basic-slide">
+                        <p>Book Image</p>
+                        <input name="image" type="text">
+                    </div>
+                    <div class="basic-slide">
+                        <p>Book Name</p>
+                        <input name="name" type="text">
+                    </div>
+                    <div class="basic-slide">
+                        <p>Author</p>
+                        <input name="author" type="text">
+                    </div>
+                    <div class="selectdiv">
+                        <select name="status" id="">
+                            <option value="reading">Reading</option>
+                            <option value="to_read">To Read</option>
+                            <option value="read">Read</option>
+                        </select>
+                    </div>
+                    <div class="button-new">
+                        <button type="submit">SAVE</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="side-image" style="background: url('https://images.unsplash.com/photo-1482953049121-a32d321c2000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60') no-repeat center / cover"></section>
+    </div>
+</body>
+</html>

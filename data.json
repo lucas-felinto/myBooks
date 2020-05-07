@@ -1,0 +1,16 @@
+{
+  "books": [
+    {
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41CD63EWd4L._SX346_BO1,204,203,200_.jpg",
+      "name": "Quem Pensa Enriquece",
+      "author": "Napoleon Hill",
+      "status": "read"
+    },
+    {
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41CD63EWd4L._SX346_BO1,204,203,200_.jpg",
+      "name": "Luiza Machado",
+      "author": "Lucas Felinto Pinto",
+      "status": "reading"
+    }
+  ]
+}
