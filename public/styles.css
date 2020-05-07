@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* HOME */
+
+body {
+    background-color: #3BC4D8;
+
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+
+    position: relative;
+}
+
+div.container {
+    width: 840px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 40px;
+    position: absolute;
+
+    border-radius: 10px;
+
+    background-color: aliceblue;
+
+    box-shadow: 2px 3px 6px -2px rgba(0, 0, 0, 0.6);
+}
+
+div.container .box {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+}
+
+.box h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.box .item {
+    padding: 8px;
+    background-color: #6202EE;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+
+    color: aliceblue;
+    text-align: center;
+    line-height: 30px;
+
+    box-shadow: 2px 3px 6px -2px rgba(0, 0, 0, 0.6);
+
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.box .item:hover {
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box .button {
+    margin-top: 60px;
+    text-align: center;
+}
+
+button {
+    color: aliceblue;
+    background-color: #01A39D;
+    border-radius: 200px;
+
+    width: 100px;
+    height: 40px;
+
+    font-weight: bolder;
+
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
