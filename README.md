@@ -23,6 +23,8 @@ Inspirado no app “Cabeceira” utilizado para organizar leituras, resolvi cria
 - [ ] Já Li
 - [ ] Estou lendo.
 
+A aplicação foi desenvolvida em NodeJS.
+
 ## Contribuições
 
 Estão listadas abaixo funcionalidades para serem aplicadas, portanto, fiquem a vontade para colaborar com o projeto:
