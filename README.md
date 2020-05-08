@@ -19,9 +19,9 @@
 
 ## Sobre
 Inspirado no app “Cabeceira” utilizado para organizar leituras, resolvi criar um pequeno sistema para gerenciar livros. A aplicação possibilita separar os livros por: 
-- [ ] Quero Ler
-- [ ] Já Li
-- [ ] Estou lendo.
+- Quero Ler
+- Já Li
+- Estou lendo.
 
 A aplicação foi desenvolvida em NodeJS.
 
@@ -29,17 +29,18 @@ A aplicação foi desenvolvida em NodeJS.
 
 Estão listadas abaixo funcionalidades para serem aplicadas, portanto, fiquem a vontade para colaborar com o projeto:
 
-- Botão Home
-- Página de visualização do livro 
-- Trocar status do livro 
-- Link para compra do Livro
-- Avaliação do livro ao finalizar leitura
-- Excluir/Editar Livro
+- [ ] Botão Home
+- [ ] Página de visualização do livro 
+- [ ] Trocar status do livro 
+- [ ] Link para compra do Livro
+- [ ] Avaliação do livro ao finalizar leitura
+- [ ] Excluir/Editar Livro
 
-* Para colaborar:
-- Faça um Fork do projeto
-- Crie uma branch
-- Faça a Pull Request
+<h2> Para colaborar: </h2>
+
+* Faça um Fork do projeto
+* Crie uma branch
+* Faça a Pull Request
 
 ## Iniciando
 
