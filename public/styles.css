@@ -14,22 +14,27 @@
 /* HOME */
 
 body {
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-self: center;
+    align-items: center;
 
-    position: relative;
+    /* position: relative; */
 }
 
 div.container {
+    margin: auto;
+
     min-width: 840px;
     min-height: 500px;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
 
-    margin-top: 40px;
-    position: absolute;
+    /* margin-top: 40px; */
+    /* position: absolute; */
 
     border-radius: 10px;
 
@@ -213,7 +218,8 @@ input[type="text"] {
     width: 900px;
     height: 550px;
 
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    margin: auto;
     position: absolute;
 
     border-radius: 10px;
