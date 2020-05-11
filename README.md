@@ -29,7 +29,7 @@ A aplicação foi desenvolvida em NodeJS.
 
 Estão listadas abaixo funcionalidades para serem aplicadas, portanto, fiquem a vontade para colaborar com o projeto:
 
-- [X] Cards Centralizados - Contribuição feita por: @diegyohoho
+- [X] Cards Centralizados - Contribuição feita por: ``@diegyohoho``
 - [ ] Botão Home
 - [ ] Página de visualização do livro 
 - [ ] Trocar status do livro 
