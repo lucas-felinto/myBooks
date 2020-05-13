@@ -207,12 +207,36 @@ input[type="text"] {
 
   .title-toread {
       text-align: center;
-      margin-top: 20px;
-
+      margin: 20px 30px 0px;
       font-family: 'Playfair Display', serif;
-
       color: white;
+      display: flex;
   }
+
+  .title-toread h1 {
+    background-color: rgba(40, 40, 40, 0.9);
+    width: 40%;
+    border-radius: 12px;
+    margin: auto;
+  }
+
+  .title-toread i {
+    color: black;
+    background-color: white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  i:hover {
+    color: white;
+    background-color: black;
+}
 
   div.container-books {
     width: 900px;
