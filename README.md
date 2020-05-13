@@ -33,9 +33,9 @@ Estão listadas abaixo funcionalidades para serem aplicadas, portanto, fiquem a 
 - [X] Botão Home - Contribuição feita por: <a href="https://github.com/gabrieltx">``@gabrieltx``</a>
 - [ ] Página de visualização do livro 
 - [ ] Trocar status do livro 
-- [ ] Link para compra do Livro
-- [ ] Avaliação do livro ao finalizar leitura
 - [ ] Excluir/Editar Livro
+- [ ] Avaliação do livro ao finalizar leitura
+
 
 <h2> Para colaborar: </h2>
 
