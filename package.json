@@ -9,7 +9,9 @@
     "browsersync": "browser-sync start --proxy http://localhost:5000 --files 'public, app/views'"
   },
   "nodemonConfig": {
-    "ignore": ["data.json"]
+    "ignore": [
+      "data.json"
+    ]
   },
   "keywords": [],
   "author": "",
