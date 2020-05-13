@@ -29,8 +29,8 @@ A aplicação foi desenvolvida em NodeJS.
 
 Estão listadas abaixo funcionalidades para serem aplicadas, portanto, fiquem a vontade para colaborar com o projeto:
 
-- [X] Cards Centralizados - Contribuição feita por: ``@diegyohoho``
-- [ ] Botão Home
+- [X] Cards Centralizados - Contribuição feita por: <a href="https://github.com/diegyohoho">``@diegyohoho``</a>
+- [X] Botão Home - Contribuição feita por: <a href="https://github.com/gabrieltx">``@gabrieltx``</a>
 - [ ] Página de visualização do livro 
 - [ ] Trocar status do livro 
 - [ ] Link para compra do Livro
@@ -39,9 +39,11 @@ Estão listadas abaixo funcionalidades para serem aplicadas, portanto, fiquem a 
 
 <h2> Para colaborar: </h2>
 
-* Faça um Fork do projeto
+* Faça Fork do projeto
 * Crie uma branch
-* Faça a Pull Request
+* Commite suas alterações
+* Push para a branch
+* Abra a Pull Request
 
 ## Iniciando
 
