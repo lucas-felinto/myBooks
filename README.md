@@ -17,7 +17,7 @@
  <a href="#sobre">Sobre</a> | <a href="#contribuções">Contribuições</a> | <a href="#iniciando">Iniciando</a> | <a href="#license">Licença</a> 
 </h3>
 
-## Sobre
+## 📄 Sobre
 Inspirado no app “Cabeceira” utilizado para organizar leituras, resolvi criar um pequeno sistema para gerenciar livros. A aplicação possibilita separar os livros por: 
 - Quero Ler
 - Já Li
@@ -25,7 +25,7 @@ Inspirado no app “Cabeceira” utilizado para organizar leituras, resolvi cria
 
 A aplicação foi desenvolvida em NodeJS.
 
-## Contribuições
+## 💡 Contribuições
 
 Estão listadas abaixo funcionalidades para serem aplicadas, portanto, fiquem a vontade para colaborar com o projeto:
 
@@ -45,7 +45,7 @@ Estão listadas abaixo funcionalidades para serem aplicadas, portanto, fiquem a 
 * Push para a branch
 * Abra a Pull Request
 
-## Iniciando
+## 🖥 Iniciando
 
 <b>Clonando o repositório:</b>
 - ```$ git clone https://github.com/lucas-felinto/myBooks.git```
