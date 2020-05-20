@@ -37,7 +37,7 @@ Estão listadas abaixo funcionalidades para serem aplicadas, portanto, fiquem a 
 - [ ] Avaliação do livro ao finalizar leitura
 
 
-<h2> Para colaborar: </h2>
+### Para colaborar:
 
 * Faça Fork do projeto
 * Crie uma branch
